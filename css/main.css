@@ -130,3 +130,19 @@ background-color: #00bac6;
 .slick-dots li {
 display: inline-block;
 }
+.texto-destaque {
+text-align: center;
+}
+.texto-destaque h1 {
+color: #818181;
+font-size: 30px;
+text-transform: uppercase;
+}
+.texto-destaque strong {
+color: #646464;
+}
+.texto-destaque p{
+color: #b9b9b9;
+font-size: 15px;
+text-align: center;
+}
