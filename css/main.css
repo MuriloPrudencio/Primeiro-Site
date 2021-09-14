@@ -136,6 +136,7 @@ text-align: center;
 color: #818181;
 font-size: 30px;
 text-transform: uppercase;
+margin-top: 58px;
 }
 .texto-destaque strong {
 color: #646464;
@@ -144,4 +145,31 @@ color: #646464;
 color: #b9b9b9;
 font-size: 15px;
 text-align: center;
+}
+.col-3{
+padding-right: 15px;
+padding-left: 15px;
+width: 28%;
+float: left;
+position: relative;
+right: 6%;
+top: 54px;
+}
+.col-2 {
+padding-right: 15px;
+padding-left: 15px;
+width: 28%;
+float: left;
+position: relative;
+left: 2%;
+top: 94px;
+}
+.col-1 {
+padding-right: 15px;
+padding-left: 15px;
+width: 28%;
+float: left;
+position: relative;
+left: 11%;
+top: 54px;
 }
