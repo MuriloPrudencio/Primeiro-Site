@@ -189,3 +189,15 @@ margin-left: 11.5%;
 background-color: #eeeeee;
 margin-top:220px;
 }
+.c-logos ul li {
+display: inline-block;
+margin-top: 40px;
+margin: 40px;
+cursor: pointer;
+}
+.c-logos {
+margin-left: 11.5%;
+}
+.custumer-logos {
+background-color: #ffffff;
+}
