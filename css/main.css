@@ -302,3 +302,12 @@ background-image: url(../img/fone.png);
 padding-left: 8px;
 cursor: pointer;
 }
+.footer-2 {
+width: 100%;
+height: 90px;
+background-image: url(../img/footer-2.png);
+}
+.cofunder {
+margin-left: 36%;
+margin-top: 40px;
+}
