@@ -185,7 +185,7 @@ font-weight: normal!important;
 }
 .bloco-imagem-text {
 background-color: #eeeeee;
-margin-top: 80px;
+margin-top: 40px;
 }
 .bloco-imagem-text::before {
 width: 100%;
@@ -212,4 +212,93 @@ position: relative!important;
 }
 .custom-logos {
 height: 170px;
+}
+.pop-text {
+float: left;
+width: 21%;
+text-align: center;
+padding-left: 2em;
+}
+.pop-text strong {
+font-size: 16px;
+font-family: sans-serif;
+}
+.footer h3 {
+text-align: left;
+font-size: 19px;
+color: #ffffff;
+}
+.footer p {
+color: #a5a4a6;
+font-size: 14px;
+text-align: left;
+}
+.footer {
+background-image: url(../img/Imagem\ de\ fundo\ text\ pop.png);
+height: 270px;
+}
+.relogio::before {
+width: 16px;
+height: 16px;
+background-image: url(../img/relogio.png);
+content: '';
+background-repeat: no-repeat;
+float: left;
+padding-left: 8px;
+cursor: pointer;
+}
+.relogio::after {
+width: 203px;
+height: 1px;
+content: '';
+background-image: url(../img/linha.png);
+display: inline-block;
+background-repeat: no-repeat;
+margin-top: 10px;
+}
+.date::before {
+width: 16px;
+height: 16px;
+background-image: url(../img/relogio.png);
+content: '';
+background-repeat: no-repeat;
+float: left;
+padding-left: 8px;
+cursor: pointer;
+}
+.date {
+color: #7e7c7d!important;
+}
+.relogio {
+color: #7e7c7d!important;
+}
+.loc::before {
+content: '';
+width: 17px;
+height: 23px;
+background-repeat: no-repeat;
+float: left;
+background-image: url(../img/loc.png);
+padding-left: 8px;
+cursor: pointer;
+}
+.email::before {
+content: '';
+width: 17px;
+height: 23px;
+background-repeat: no-repeat;
+float: left;
+background-image: url(../img/email.png);
+padding-left: 8px;
+cursor: pointer;
+}
+.fone::before {
+content: '';
+width: 17px;
+height: 23px;
+background-repeat: no-repeat;
+float: left;
+background-image: url(../img/fone.png);
+padding-left: 8px;
+cursor: pointer;
 }
