@@ -162,7 +162,7 @@ height: auto;
 }
 .bloco-img {
 height: 300px;
-border: 1px solid #8b8b8b;
+border: 1px solid #514c4e;
 padding-top: 15px;
 padding-bottom: 15px;
 margin-left: 10px;
@@ -176,26 +176,16 @@ text-align: left;
 margin-top: 3em;
 }
 p {
-color: #bbbbbb;
+color: #353133;
 font-size: 14px;
 }
 h3 {
-color: #717070;
+color: #3d3d3d;
 font-weight: normal!important;
 }
 .bloco-imagem-text {
-background-color: #eeeeee;
+background-color: #07949d;
 margin-top: 40px;
-}
-.bloco-imagem-text::before {
-width: 100%;
-display: inline-block;
-content: '';
-height: 52px;
-background-color: #ffffff;
-background-image: url(../img/Pseudo.png);
-background-repeat: no-repeat;
-background-position: center;
 }
 .col-4 {
 display: inline-block;

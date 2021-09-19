@@ -100,19 +100,31 @@ background-image: url(../img/linha.png);
 margin-bottom: 30px;
 }
 .texto-2 {
-background-color: #eeeeee;
+background-color: #07949d;
 height: 1000px;
-color: #8b8b8b;
+color: #353133;
 font-family: sans-serif;
 font-size: 15px;
 text-align: left;
 }
-.story::after {
-height: 260px;
-width: 260px;
+.story::before {
+height: 230px;
+width: 230px;
 content: '';
 display: inline-block;
-background-image: url();
+background-image: url(../img/logo.png);
+background-repeat: no-repeat;
+margin-top: 30px;
+}
+.story::after {
+height: 230px;
+width: 230px;
+content: '';
+background-image: url(../img/logo.png);
+background-repeat: no-repeat;
+margin-top: 30px;
+display: inline-block;
+margin-left: 870px;
 }
 .col-4 {
 display: inline-block;
